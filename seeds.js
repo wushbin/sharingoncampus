@@ -22,33 +22,33 @@ var data = [
 
 function seedDB(){
     Campground.remove({}, function(error){
-        if(error){
-            console.log(error);
-        } else {
-            console.log("removed campgrounds");
-            data.forEach(function(seed){
-                Campground.create(seed, function(error, campground){
-                    if (error) {
-                        console.log(error);
-                    } else {
-                        console.log("campground added");
-                        Comment.create(
-                            {
-                                text: "This is a greate place",
-                                author: "KingCat"
-                            }, function(error, comment){
-                                if(error){
-                                    console.log(error);
-                                } else {
-                                    campground.comments.push(comment);
-                                    campground.save();
-                                    console.log("comment added");
-                                }
-                            });
-                    }
-                });
-            });
-        }
+        // if(error){
+        //     console.log(error);
+        // } else {
+        //     console.log("removed campgrounds");
+        //     data.forEach(function(seed){
+        //         Campground.create(seed, function(error, campground){
+        //             if (error) {
+        //                 console.log(error);
+        //             } else {
+        //                 console.log("campground added");
+        //                 Comment.create(
+        //                     {
+        //                         text: "This is a greate place",
+        //                         author: "KingCat"
+        //                     }, function(error, comment){
+        //                         if(error){
+        //                             console.log(error);
+        //                         } else {
+        //                             campground.comments.push(comment);
+        //                             campground.save();
+        //                             console.log("comment added");
+        //                         }
+        //                     });
+        //             }
+        //         });
+        //     });
+        // }
     });
     
     
