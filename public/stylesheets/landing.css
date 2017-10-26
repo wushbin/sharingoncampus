@@ -40,22 +40,22 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(http://i.imgur.com/K3mPv14.jpg) 
+  background-image: url(http://static.simpledesktops.com/uploads/desktops/2015/07/14/polygonal-shape-4k.png) 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(http://i.imgur.com/SBEmFpv.jpg);
+  background-image: url(http://static.simpledesktops.com/uploads/desktops/2015/02/08/Bubbly-2880.png);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(http://i.imgur.com/emvhOnb.jpg);
+  background-image: url(http://static.simpledesktops.com/uploads/desktops/2012/10/02/FLOWER2.png);
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(http://i.imgur.com/2LSMCmJ.jpg);
+  background-image: url(http://static.simpledesktops.com/uploads/desktops/2013/09/18/wallpaper.png);
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(http://i.imgur.com/TVGe0Ef.jpg);
+  background-image: url(http://static.simpledesktops.com/uploads/desktops/2012/11/13/Heart_Points.png);
   animation-delay: 40s; 
 }
 
